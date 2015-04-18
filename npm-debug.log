@@ -1,0 +1,666 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'generator-angular',
+1 verbose cli   'generator-front-end',
+1 verbose cli   'generator-karma',
+1 verbose cli   'generator-webapp',
+1 verbose cli   'generator-mocha' ]
+2 info using npm@2.5.1
+3 info using node@v0.12.0
+4 silly cache add args [ 'generator-angular', null ]
+5 verbose cache add spec generator-angular
+6 silly cache add args [ 'generator-front-end', null ]
+7 verbose cache add spec generator-front-end
+8 silly cache add args [ 'generator-karma', null ]
+9 verbose cache add spec generator-karma
+10 silly cache add args [ 'generator-webapp', null ]
+11 verbose cache add spec generator-webapp
+12 silly cache add args [ 'generator-mocha', null ]
+13 verbose cache add spec generator-mocha
+14 silly cache add parsed spec { raw: 'generator-angular',
+14 silly cache add   scope: null,
+14 silly cache add   name: 'generator-angular',
+14 silly cache add   rawSpec: '',
+14 silly cache add   spec: '*',
+14 silly cache add   type: 'range' }
+15 verbose addNamed generator-angular@*
+16 silly addNamed semver.valid null
+17 silly addNamed semver.validRange *
+18 silly addNameRange { name: 'generator-angular', range: '*', hasData: false }
+19 silly mapToRegistry name generator-angular
+20 silly mapToRegistry using default registry
+21 silly mapToRegistry registry https://registry.npmjs.org/
+22 silly mapToRegistry uri https://registry.npmjs.org/generator-angular
+23 verbose addNameRange registry:https://registry.npmjs.org/generator-angular not in flight; fetching
+24 silly cache add parsed spec { raw: 'generator-front-end',
+24 silly cache add   scope: null,
+24 silly cache add   name: 'generator-front-end',
+24 silly cache add   rawSpec: '',
+24 silly cache add   spec: '*',
+24 silly cache add   type: 'range' }
+25 verbose addNamed generator-front-end@*
+26 silly addNamed semver.valid null
+27 silly addNamed semver.validRange *
+28 silly addNameRange { name: 'generator-front-end', range: '*', hasData: false }
+29 silly mapToRegistry name generator-front-end
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry uri https://registry.npmjs.org/generator-front-end
+33 verbose addNameRange registry:https://registry.npmjs.org/generator-front-end not in flight; fetching
+34 silly cache add parsed spec { raw: 'generator-karma',
+34 silly cache add   scope: null,
+34 silly cache add   name: 'generator-karma',
+34 silly cache add   rawSpec: '',
+34 silly cache add   spec: '*',
+34 silly cache add   type: 'range' }
+35 verbose addNamed generator-karma@*
+36 silly addNamed semver.valid null
+37 silly addNamed semver.validRange *
+38 silly addNameRange { name: 'generator-karma', range: '*', hasData: false }
+39 silly mapToRegistry name generator-karma
+40 silly mapToRegistry using default registry
+41 silly mapToRegistry registry https://registry.npmjs.org/
+42 silly mapToRegistry uri https://registry.npmjs.org/generator-karma
+43 verbose addNameRange registry:https://registry.npmjs.org/generator-karma not in flight; fetching
+44 silly cache add parsed spec { raw: 'generator-webapp',
+44 silly cache add   scope: null,
+44 silly cache add   name: 'generator-webapp',
+44 silly cache add   rawSpec: '',
+44 silly cache add   spec: '*',
+44 silly cache add   type: 'range' }
+45 verbose addNamed generator-webapp@*
+46 silly addNamed semver.valid null
+47 silly addNamed semver.validRange *
+48 silly addNameRange { name: 'generator-webapp', range: '*', hasData: false }
+49 silly mapToRegistry name generator-webapp
+50 silly mapToRegistry using default registry
+51 silly mapToRegistry registry https://registry.npmjs.org/
+52 silly mapToRegistry uri https://registry.npmjs.org/generator-webapp
+53 verbose addNameRange registry:https://registry.npmjs.org/generator-webapp not in flight; fetching
+54 silly cache add parsed spec { raw: 'generator-mocha',
+54 silly cache add   scope: null,
+54 silly cache add   name: 'generator-mocha',
+54 silly cache add   rawSpec: '',
+54 silly cache add   spec: '*',
+54 silly cache add   type: 'range' }
+55 verbose addNamed generator-mocha@*
+56 silly addNamed semver.valid null
+57 silly addNamed semver.validRange *
+58 silly addNameRange { name: 'generator-mocha', range: '*', hasData: false }
+59 silly mapToRegistry name generator-mocha
+60 silly mapToRegistry using default registry
+61 silly mapToRegistry registry https://registry.npmjs.org/
+62 silly mapToRegistry uri https://registry.npmjs.org/generator-mocha
+63 verbose addNameRange registry:https://registry.npmjs.org/generator-mocha not in flight; fetching
+64 verbose request uri https://registry.npmjs.org/generator-front-end
+65 verbose request no auth needed
+66 info attempt registry request try #1 at 2:42:09 PM
+67 verbose request id 54d8b69838f2c7d6
+68 verbose etag "6CCI9RXZ7TTBJBXIMLQLH94V"
+69 http request GET https://registry.npmjs.org/generator-front-end
+70 verbose request uri https://registry.npmjs.org/generator-mocha
+71 verbose request no auth needed
+72 info attempt registry request try #1 at 2:42:09 PM
+73 verbose etag "2IA865DRMQBYRQDMKJ0W2EB1B"
+74 http request GET https://registry.npmjs.org/generator-mocha
+75 verbose request uri https://registry.npmjs.org/generator-angular
+76 verbose request no auth needed
+77 info attempt registry request try #1 at 2:42:09 PM
+78 verbose etag "E2CV092M7SQFJGVCU5MG6ZK75"
+79 http request GET https://registry.npmjs.org/generator-angular
+80 verbose request uri https://registry.npmjs.org/generator-karma
+81 verbose request no auth needed
+82 info attempt registry request try #1 at 2:42:09 PM
+83 verbose etag "140KE36LE26NSYNXBOECU3J10"
+84 http request GET https://registry.npmjs.org/generator-karma
+85 verbose request uri https://registry.npmjs.org/generator-webapp
+86 verbose request no auth needed
+87 info attempt registry request try #1 at 2:42:09 PM
+88 verbose etag "94FDJG2O8132GD7K8BWLGWM1O"
+89 http request GET https://registry.npmjs.org/generator-webapp
+90 http 200 https://registry.npmjs.org/generator-mocha
+91 silly get cb [ 200,
+91 silly get   { date: 'Sat, 18 Apr 2015 18:42:09 GMT',
+91 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+91 silly get     etag: '"BR8FBQAJA56SV06BIY2LYOHVJ"',
+91 silly get     'content-type': 'application/json',
+91 silly get     'cache-control': 'max-age=60',
+91 silly get     'content-length': '9681',
+91 silly get     'accept-ranges': 'bytes',
+91 silly get     via: '1.1 varnish',
+91 silly get     age: '0',
+91 silly get     'x-served-by': 'cache-iad2138-IAD',
+91 silly get     'x-cache': 'MISS',
+91 silly get     'x-cache-hits': '0',
+91 silly get     'x-timer': 'S1429382529.559442,VS0,VE57',
+91 silly get     vary: 'Accept',
+91 silly get     'keep-alive': 'timeout=10, max=50',
+91 silly get     connection: 'Keep-Alive' } ]
+92 verbose get saving generator-mocha to /Users/Josizzle/.npm/registry.npmjs.org/generator-mocha/.cache.json
+93 http 200 https://registry.npmjs.org/generator-front-end
+94 silly get cb [ 200,
+94 silly get   { date: 'Sat, 18 Apr 2015 18:42:09 GMT',
+94 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+94 silly get     etag: '"7IQJZ0UU6CURA7CJTGR1O7ELH"',
+94 silly get     'content-type': 'application/json',
+94 silly get     'cache-control': 'max-age=60',
+94 silly get     'content-length': '19711',
+94 silly get     'accept-ranges': 'bytes',
+94 silly get     via: '1.1 varnish',
+94 silly get     age: '0',
+94 silly get     'x-served-by': 'cache-iad2147-IAD',
+94 silly get     'x-cache': 'MISS',
+94 silly get     'x-cache-hits': '0',
+94 silly get     'x-timer': 'S1429382529.554754,VS0,VE23',
+94 silly get     vary: 'Accept',
+94 silly get     'keep-alive': 'timeout=10, max=50',
+94 silly get     connection: 'Keep-Alive' } ]
+95 verbose get saving generator-front-end to /Users/Josizzle/.npm/registry.npmjs.org/generator-front-end/.cache.json
+96 silly addNameRange number 2 { name: 'generator-mocha', range: '*', hasData: true }
+97 silly addNameRange versions [ 'generator-mocha',
+97 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3', '0.1.4', '0.1.5', '0.1.6' ] ]
+98 verbose addNamed generator-mocha@0.1.6
+99 silly addNamed semver.valid 0.1.6
+100 silly addNamed semver.validRange 0.1.6
+101 silly addNameRange number 2 { name: 'generator-front-end', range: '*', hasData: true }
+102 silly addNameRange versions [ 'generator-front-end',
+102 silly addNameRange   [ '0.1.0', '0.1.1', '0.1.2', '0.1.3' ] ]
+103 verbose addNamed generator-front-end@0.1.3
+104 silly addNamed semver.valid 0.1.3
+105 silly addNamed semver.validRange 0.1.3
+106 http 200 https://registry.npmjs.org/generator-karma
+107 silly get cb [ 200,
+107 silly get   { date: 'Sat, 18 Apr 2015 18:42:09 GMT',
+107 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+107 silly get     etag: '"8GM65P6USI3YXLLAYFZAH0MXO"',
+107 silly get     'content-type': 'application/json',
+107 silly get     'cache-control': 'max-age=60',
+107 silly get     'content-length': '22321',
+107 silly get     'accept-ranges': 'bytes',
+107 silly get     via: '1.1 varnish',
+107 silly get     age: '0',
+107 silly get     'x-served-by': 'cache-iad2133-IAD',
+107 silly get     'x-cache': 'HIT',
+107 silly get     'x-cache-hits': '1',
+107 silly get     'x-timer': 'S1429382529.572347,VS0,VE57',
+107 silly get     vary: 'Accept',
+107 silly get     'keep-alive': 'timeout=10, max=50',
+107 silly get     connection: 'Keep-Alive' } ]
+108 verbose get saving generator-karma to /Users/Josizzle/.npm/registry.npmjs.org/generator-karma/.cache.json
+109 silly addNameRange number 2 { name: 'generator-karma', range: '*', hasData: true }
+110 silly addNameRange versions [ 'generator-karma',
+110 silly addNameRange   [ '0.1.1',
+110 silly addNameRange     '0.2.0',
+110 silly addNameRange     '0.3.0',
+110 silly addNameRange     '0.3.1',
+110 silly addNameRange     '0.4.1',
+110 silly addNameRange     '0.5.0',
+110 silly addNameRange     '0.6.0',
+110 silly addNameRange     '0.7.0',
+110 silly addNameRange     '0.8.0',
+110 silly addNameRange     '0.8.1',
+110 silly addNameRange     '0.8.2',
+110 silly addNameRange     '0.8.3',
+110 silly addNameRange     '0.9.0' ] ]
+111 verbose addNamed generator-karma@0.9.0
+112 silly addNamed semver.valid 0.9.0
+113 silly addNamed semver.validRange 0.9.0
+114 silly cache afterAdd generator-front-end@0.1.3
+115 verbose afterAdd /Users/Josizzle/.npm/generator-front-end/0.1.3/package/package.json not in flight; writing
+116 verbose afterAdd /Users/Josizzle/.npm/generator-front-end/0.1.3/package/package.json written
+117 silly cache afterAdd generator-mocha@0.1.6
+118 verbose afterAdd /Users/Josizzle/.npm/generator-mocha/0.1.6/package/package.json not in flight; writing
+119 http 200 https://registry.npmjs.org/generator-angular
+120 silly get cb [ 200,
+120 silly get   { date: 'Sat, 18 Apr 2015 18:42:09 GMT',
+120 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+120 silly get     etag: '"5V15HRBQ1M2XZALZNSA6115MI"',
+120 silly get     'content-type': 'application/json',
+120 silly get     'cache-control': 'max-age=60',
+120 silly get     'content-length': '63119',
+120 silly get     'accept-ranges': 'bytes',
+120 silly get     via: '1.1 varnish',
+120 silly get     age: '0',
+120 silly get     'x-served-by': 'cache-iad2127-IAD',
+120 silly get     'x-cache': 'HIT',
+120 silly get     'x-cache-hits': '1',
+120 silly get     'x-timer': 'S1429382529.568238,VS0,VE55',
+120 silly get     vary: 'Accept',
+120 silly get     'keep-alive': 'timeout=10, max=50',
+120 silly get     connection: 'Keep-Alive' } ]
+121 verbose get saving generator-angular to /Users/Josizzle/.npm/registry.npmjs.org/generator-angular/.cache.json
+122 silly cache afterAdd generator-karma@0.9.0
+123 verbose afterAdd /Users/Josizzle/.npm/generator-karma/0.9.0/package/package.json not in flight; writing
+124 verbose afterAdd /Users/Josizzle/.npm/generator-mocha/0.1.6/package/package.json written
+125 verbose afterAdd /Users/Josizzle/.npm/generator-karma/0.9.0/package/package.json written
+126 silly addNameRange number 2 { name: 'generator-angular', range: '*', hasData: true }
+127 silly addNameRange versions [ 'generator-angular',
+127 silly addNameRange   [ '0.1.0',
+127 silly addNameRange     '0.1.1',
+127 silly addNameRange     '0.1.2',
+127 silly addNameRange     '0.1.3',
+127 silly addNameRange     '0.1.4',
+127 silly addNameRange     '0.1.5',
+127 silly addNameRange     '0.2.0',
+127 silly addNameRange     '0.2.1',
+127 silly addNameRange     '0.2.2',
+127 silly addNameRange     '0.3.0',
+127 silly addNameRange     '0.3.1',
+127 silly addNameRange     '0.4.0',
+127 silly addNameRange     '0.5.0',
+127 silly addNameRange     '0.5.1',
+127 silly addNameRange     '0.6.0-rc.1',
+127 silly addNameRange     '0.6.0-rc.2',
+127 silly addNameRange     '0.6.0',
+127 silly addNameRange     '0.7.0',
+127 silly addNameRange     '0.7.1',
+127 silly addNameRange     '0.8.0',
+127 silly addNameRange     '0.9.0-0',
+127 silly addNameRange     '0.9.0-1',
+127 silly addNameRange     '0.9.0',
+127 silly addNameRange     '0.9.1',
+127 silly addNameRange     '0.9.2',
+127 silly addNameRange     '0.9.3',
+127 silly addNameRange     '0.9.5',
+127 silly addNameRange     '0.9.6',
+127 silly addNameRange     '0.9.7',
+127 silly addNameRange     '0.9.8',
+127 silly addNameRange     '0.10.0',
+127 silly addNameRange     '0.11.0',
+127 silly addNameRange     '0.11.1' ] ]
+128 verbose addNamed generator-angular@0.11.1
+129 silly addNamed semver.valid 0.11.1
+130 silly addNamed semver.validRange 0.11.1
+131 silly cache afterAdd generator-angular@0.11.1
+132 verbose afterAdd /Users/Josizzle/.npm/generator-angular/0.11.1/package/package.json not in flight; writing
+133 verbose afterAdd /Users/Josizzle/.npm/generator-angular/0.11.1/package/package.json written
+134 http 200 https://registry.npmjs.org/generator-webapp
+135 silly get cb [ 200,
+135 silly get   { date: 'Sat, 18 Apr 2015 18:42:09 GMT',
+135 silly get     server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+135 silly get     etag: '"6FSNF9IGXB6IN8KBB2INCMXJ7"',
+135 silly get     'content-type': 'application/json',
+135 silly get     'cache-control': 'max-age=60',
+135 silly get     'content-length': '46256',
+135 silly get     'accept-ranges': 'bytes',
+135 silly get     via: '1.1 varnish',
+135 silly get     age: '0',
+135 silly get     'x-served-by': 'cache-iad2132-IAD',
+135 silly get     'x-cache': 'MISS',
+135 silly get     'x-cache-hits': '0',
+135 silly get     'x-timer': 'S1429382529.565592,VS0,VE355',
+135 silly get     vary: 'Accept',
+135 silly get     'keep-alive': 'timeout=10, max=50',
+135 silly get     connection: 'Keep-Alive' } ]
+136 verbose get saving generator-webapp to /Users/Josizzle/.npm/registry.npmjs.org/generator-webapp/.cache.json
+137 silly addNameRange number 2 { name: 'generator-webapp', range: '*', hasData: true }
+138 silly addNameRange versions [ 'generator-webapp',
+138 silly addNameRange   [ '0.1.0',
+138 silly addNameRange     '0.1.1',
+138 silly addNameRange     '0.1.2',
+138 silly addNameRange     '0.1.3',
+138 silly addNameRange     '0.1.4',
+138 silly addNameRange     '0.1.5',
+138 silly addNameRange     '0.1.6',
+138 silly addNameRange     '0.1.7',
+138 silly addNameRange     '0.2.0',
+138 silly addNameRange     '0.2.1',
+138 silly addNameRange     '0.2.2',
+138 silly addNameRange     '0.2.3',
+138 silly addNameRange     '0.2.4',
+138 silly addNameRange     '0.2.5',
+138 silly addNameRange     '0.2.6',
+138 silly addNameRange     '0.2.7',
+138 silly addNameRange     '0.3.0',
+138 silly addNameRange     '0.3.1',
+138 silly addNameRange     '0.4.0',
+138 silly addNameRange     '0.4.1',
+138 silly addNameRange     '0.4.2',
+138 silly addNameRange     '0.4.3',
+138 silly addNameRange     '0.4.4',
+138 silly addNameRange     '0.4.5',
+138 silly addNameRange     '0.4.6',
+138 silly addNameRange     '0.4.7',
+138 silly addNameRange     '0.4.8',
+138 silly addNameRange     '0.4.9',
+138 silly addNameRange     '0.5.0-1',
+138 silly addNameRange     '0.5.0-rc.1',
+138 silly addNameRange     '0.5.0-2',
+138 silly addNameRange     '0.5.0',
+138 silly addNameRange     '0.5.1' ] ]
+139 verbose addNamed generator-webapp@0.5.1
+140 silly addNamed semver.valid 0.5.1
+141 silly addNamed semver.validRange 0.5.1
+142 silly cache afterAdd generator-webapp@0.5.1
+143 verbose afterAdd /Users/Josizzle/.npm/generator-webapp/0.5.1/package/package.json not in flight; writing
+144 verbose afterAdd /Users/Josizzle/.npm/generator-webapp/0.5.1/package/package.json written
+145 silly install resolved [ { name: 'generator-front-end',
+145 silly install resolved     version: '0.1.3',
+145 silly install resolved     description: 'front-end generator',
+145 silly install resolved     author: { name: 'Tyler Beck', url: 'https://github.com/tylerbeck' },
+145 silly install resolved     engines: { node: '>=0.10.0' },
+145 silly install resolved     scripts: { test: 'mocha' },
+145 silly install resolved     files: [ 'app' ],
+145 silly install resolved     keywords: [ 'yeoman-generator' ],
+145 silly install resolved     dependencies:
+145 silly install resolved      { chalk: '^0.5.0',
+145 silly install resolved        glob: '^4.3.5',
+145 silly install resolved        lodash: '^3.0.1',
+145 silly install resolved        'yeoman-generator': '^0.18.0',
+145 silly install resolved        yosay: '^0.3.0' },
+145 silly install resolved     devDependencies: { mocha: '*' },
+145 silly install resolved     peerDependencies: { yo: '>=1.0.0' },
+145 silly install resolved     gitHead: 'e5fab9591c887b5a92d643fc9a61675bc9207b6b',
+145 silly install resolved     _id: 'generator-front-end@0.1.3',
+145 silly install resolved     _shasum: '7175ca4a0ae0117af683e801fe800c3fa0af5c9b',
+145 silly install resolved     _from: 'generator-front-end@*',
+145 silly install resolved     _npmVersion: '2.5.1',
+145 silly install resolved     _nodeVersion: '0.12.0',
+145 silly install resolved     _npmUser: { name: 'tylerbeck', email: 'code@tylerbeck.com' },
+145 silly install resolved     maintainers: [ [Object] ],
+145 silly install resolved     dist:
+145 silly install resolved      { shasum: '7175ca4a0ae0117af683e801fe800c3fa0af5c9b',
+145 silly install resolved        tarball: 'http://registry.npmjs.org/generator-front-end/-/generator-front-end-0.1.3.tgz' },
+145 silly install resolved     directories: {},
+145 silly install resolved     _resolved: 'https://registry.npmjs.org/generator-front-end/-/generator-front-end-0.1.3.tgz',
+145 silly install resolved     readme: 'ERROR: No README data found!' },
+145 silly install resolved   { name: 'generator-mocha',
+145 silly install resolved     version: '0.1.6',
+145 silly install resolved     description: 'Yeoman generator for Mocha',
+145 silly install resolved     keywords:
+145 silly install resolved      [ 'yeoman-generator',
+145 silly install resolved        'scaffold',
+145 silly install resolved        'unit',
+145 silly install resolved        'test',
+145 silly install resolved        'testing',
+145 silly install resolved        'bdd',
+145 silly install resolved        'tdd',
+145 silly install resolved        'mocha' ],
+145 silly install resolved     author: { name: 'The Yeoman Team' },
+145 silly install resolved     repository:
+145 silly install resolved      { type: 'git',
+145 silly install resolved        url: 'https://github.com/yeoman/generator-mocha' },
+145 silly install resolved     scripts: { test: 'mocha --reporter spec' },
+145 silly install resolved     dependencies: { 'yeoman-generator': '^0.17.0' },
+145 silly install resolved     devDependencies: { mocha: '*' },
+145 silly install resolved     peerDependencies: { yo: '>=1.0.0' },
+145 silly install resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+145 silly install resolved     license: 'BSD',
+145 silly install resolved     files: [ 'generators' ],
+145 silly install resolved     gitHead: '536a0dc7bcc517722d0ce8bb08e357329458d038',
+145 silly install resolved     bugs: { url: 'https://github.com/yeoman/generator-mocha/issues' },
+145 silly install resolved     homepage: 'https://github.com/yeoman/generator-mocha',
+145 silly install resolved     _id: 'generator-mocha@0.1.6',
+145 silly install resolved     _shasum: '34249844b9d35f08d7ba6da0d4a30e67644cc541',
+145 silly install resolved     _from: 'generator-mocha@*',
+145 silly install resolved     _npmVersion: '1.4.23',
+145 silly install resolved     _npmUser: { name: 'sboudrias', email: 'admin@simonboudrias.com' },
+145 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object] ],
+145 silly install resolved     dist:
+145 silly install resolved      { shasum: '34249844b9d35f08d7ba6da0d4a30e67644cc541',
+145 silly install resolved        tarball: 'http://registry.npmjs.org/generator-mocha/-/generator-mocha-0.1.6.tgz' },
+145 silly install resolved     directories: {},
+145 silly install resolved     _resolved: 'https://registry.npmjs.org/generator-mocha/-/generator-mocha-0.1.6.tgz',
+145 silly install resolved     readme: 'ERROR: No README data found!' },
+145 silly install resolved   { name: 'generator-karma',
+145 silly install resolved     version: '0.9.0',
+145 silly install resolved     description: 'Yeoman generator for Karma',
+145 silly install resolved     license: 'BSD',
+145 silly install resolved     main: 'app/index.js',
+145 silly install resolved     repository:
+145 silly install resolved      { type: 'git',
+145 silly install resolved        url: 'https://github.com/yeoman/generator-karma' },
+145 silly install resolved     author: { name: 'The Yeoman Team' },
+145 silly install resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+145 silly install resolved     scripts: { test: 'mocha --reporter spec' },
+145 silly install resolved     files: [ 'app', 'templates' ],
+145 silly install resolved     keywords: [ 'yeoman-generator', 'scaffold', 'test', 'runner', 'karma' ],
+145 silly install resolved     dependencies: { underscore: '^1.6.0', 'yeoman-generator': '^0.17.1' },
+145 silly install resolved     devDependencies: { mocha: '*' },
+145 silly install resolved     peerDependencies: { yo: '>=1.0.0' },
+145 silly install resolved     gitHead: 'a1610e6e67463328111dd8db1c5526e2d7156448',
+145 silly install resolved     bugs: { url: 'https://github.com/yeoman/generator-karma/issues' },
+145 silly install resolved     homepage: 'https://github.com/yeoman/generator-karma',
+145 silly install resolved     _id: 'generator-karma@0.9.0',
+145 silly install resolved     _shasum: '77fa362ff3dddc74511f7f003993fb06dbea3af1',
+145 silly install resolved     _from: 'generator-karma@*',
+145 silly install resolved     _npmVersion: '2.1.18',
+145 silly install resolved     _nodeVersion: '0.10.35',
+145 silly install resolved     _npmUser: { name: 'eddiemonge', email: 'eddie+npm@eddiemonge.com' },
+145 silly install resolved     maintainers:
+145 silly install resolved      [ [Object],
+145 silly install resolved        [Object],
+145 silly install resolved        [Object],
+145 silly install resolved        [Object],
+145 silly install resolved        [Object],
+145 silly install resolved        [Object],
+145 silly install resolved        [Object] ],
+145 silly install resolved     dist:
+145 silly install resolved      { shasum: '77fa362ff3dddc74511f7f003993fb06dbea3af1',
+145 silly install resolved        tarball: 'http://registry.npmjs.org/generator-karma/-/generator-karma-0.9.0.tgz' },
+145 silly install resolved     directories: {},
+145 silly install resolved     _resolved: 'https://registry.npmjs.org/generator-karma/-/generator-karma-0.9.0.tgz',
+145 silly install resolved     readme: 'ERROR: No README data found!' },
+145 silly install resolved   { name: 'generator-angular',
+145 silly install resolved     version: '0.11.1',
+145 silly install resolved     description: 'Yeoman generator for AngularJS',
+145 silly install resolved     keywords:
+145 silly install resolved      [ 'yeoman-generator',
+145 silly install resolved        'scaffold',
+145 silly install resolved        'framework',
+145 silly install resolved        'component',
+145 silly install resolved        'front-end',
+145 silly install resolved        'app',
+145 silly install resolved        'angular' ],
+145 silly install resolved     author: { name: 'The Yeoman Team' },
+145 silly install resolved     main: 'app/index.js',
+145 silly install resolved     files:
+145 silly install resolved      [ 'app',
+145 silly install resolved        'common',
+145 silly install resolved        'constant',
+145 silly install resolved        'controller',
+145 silly install resolved        'decorator',
+145 silly install resolved        'directive',
+145 silly install resolved        'factory',
+145 silly install resolved        'filter',
+145 silly install resolved        'main',
+145 silly install resolved        'provider',
+145 silly install resolved        'route',
+145 silly install resolved        'service',
+145 silly install resolved        'templates',
+145 silly install resolved        'value',
+145 silly install resolved        'view',
+145 silly install resolved        'script-base.js',
+145 silly install resolved        'util.js' ],
+145 silly install resolved     repository:
+145 silly install resolved      { type: 'git',
+145 silly install resolved        url: 'https://github.com/yeoman/generator-angular' },
+145 silly install resolved     scripts: { test: 'mocha' },
+145 silly install resolved     dependencies:
+145 silly install resolved      { wiredep: '^2.2.0',
+145 silly install resolved        'yeoman-generator': '^0.16.0',
+145 silly install resolved        yosay: '^1.0.2',
+145 silly install resolved        chalk: '^0.5.0' },
+145 silly install resolved     peerDependencies: { 'generator-karma': '>=0.9.0', yo: '>=1.0.0' },
+145 silly install resolved     devDependencies:
+145 silly install resolved      { grunt: '~0.4.1',
+145 silly install resolved        'grunt-contrib-jshint': '~0.11.0',
+145 silly install resolved        'grunt-conventional-changelog': '~1.1.0',
+145 silly install resolved        'grunt-release': '~0.11.0',
+145 silly install resolved        'load-grunt-tasks': '~3.1.0',
+145 silly install resolved        mocha: '*',
+145 silly install resolved        semver: '~4.2.0',
+145 silly install resolved        'underscore.string': '~2.3.1' },
+145 silly install resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+145 silly install resolved     licenses: [ [Object] ],
+145 silly install resolved     gitHead: '1173a57caca7a9614bdeadd4c916a00d3769de6f',
+145 silly install resolved     bugs: { url: 'https://github.com/yeoman/generator-angular/issues' },
+145 silly install resolved     homepage: 'https://github.com/yeoman/generator-angular',
+145 silly install resolved     _id: 'generator-angular@0.11.1',
+145 silly install resolved     _shasum: 'f469e28e4ce67639a47c690ba5e54f90558d8e8f',
+145 silly install resolved     _from: 'generator-angular@*',
+145 silly install resolved     _npmVersion: '2.4.1',
+145 silly install resolved     _nodeVersion: '0.10.35',
+145 silly install resolved     _npmUser: { name: 'eddiemonge', email: 'eddie+npm@eddiemonge.com' },
+145 silly install resolved     maintainers:
+145 silly install resolved      [ [Object],
+145 silly install resolved        [Object],
+145 silly install resolved        [Object],
+145 silly install resolved        [Object],
+145 silly install resolved        [Object],
+145 silly install resolved        [Object],
+145 silly install resolved        [Object] ],
+145 silly install resolved     dist:
+145 silly install resolved      { shasum: 'f469e28e4ce67639a47c690ba5e54f90558d8e8f',
+145 silly install resolved        tarball: 'http://registry.npmjs.org/generator-angular/-/generator-angular-0.11.1.tgz' },
+145 silly install resolved     directories: {},
+145 silly install resolved     _resolved: 'https://registry.npmjs.org/generator-angular/-/generator-angular-0.11.1.tgz',
+145 silly install resolved     readme: 'ERROR: No README data found!' },
+145 silly install resolved   { name: 'generator-webapp',
+145 silly install resolved     version: '0.5.1',
+145 silly install resolved     description: 'Scaffold out a front-end web app',
+145 silly install resolved     license: 'BSD',
+145 silly install resolved     repository:
+145 silly install resolved      { type: 'git',
+145 silly install resolved        url: 'https://github.com/yeoman/generator-webapp' },
+145 silly install resolved     author: { name: 'The Yeoman Team' },
+145 silly install resolved     main: 'app/index.js',
+145 silly install resolved     engines: { node: '>=0.10.0', npm: '>=1.2.10' },
+145 silly install resolved     scripts: { test: 'mocha --reporter spec' },
+145 silly install resolved     files: [ 'app' ],
+145 silly install resolved     keywords:
+145 silly install resolved      [ 'yeoman-generator',
+145 silly install resolved        'web',
+145 silly install resolved        'app',
+145 silly install resolved        'front-end',
+145 silly install resolved        'h5bp',
+145 silly install resolved        'modernizr',
+145 silly install resolved        'jquery',
+145 silly install resolved        'grunt' ],
+145 silly install resolved     dependencies:
+145 silly install resolved      { chalk: '^0.5.1',
+145 silly install resolved        cheerio: '^0.17.0',
+145 silly install resolved        'yeoman-generator': '~0.17.3',
+145 silly install resolved        yosay: '~1.0.0' },
+145 silly install resolved     devDependencies: { mocha: '*', underscore: '^1.6.0' },
+145 silly install resolved     peerDependencies: { yo: '>=1.2.0', 'generator-mocha': '>=0.1.0' },
+145 silly install resolved     gitHead: 'ddbc163f38f6313fb368419340e3c42df7d21f06',
+145 silly install resolved     bugs: { url: 'https://github.com/yeoman/generator-webapp/issues' },
+145 silly install resolved     homepage: 'https://github.com/yeoman/generator-webapp',
+145 silly install resolved     _id: 'generator-webapp@0.5.1',
+145 silly install resolved     _shasum: '4581cd69d5d0010be777863fb4a887b4a9ddb173',
+145 silly install resolved     _from: 'generator-webapp@*',
+145 silly install resolved     _npmVersion: '2.1.2',
+145 silly install resolved     _nodeVersion: '0.10.32',
+145 silly install resolved     _npmUser: { name: 'eddiemonge', email: 'eddie+npm@eddiemonge.com' },
+145 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+145 silly install resolved     dist:
+145 silly install resolved      { shasum: '4581cd69d5d0010be777863fb4a887b4a9ddb173',
+145 silly install resolved        tarball: 'http://registry.npmjs.org/generator-webapp/-/generator-webapp-0.5.1.tgz' },
+145 silly install resolved     directories: {},
+145 silly install resolved     _resolved: 'https://registry.npmjs.org/generator-webapp/-/generator-webapp-0.5.1.tgz',
+145 silly install resolved     readme: 'ERROR: No README data found!' } ]
+146 info install generator-front-end@0.1.3 into /usr/local/lib
+147 info install generator-mocha@0.1.6 into /usr/local/lib
+148 info install generator-karma@0.9.0 into /usr/local/lib
+149 info install generator-angular@0.11.1 into /usr/local/lib
+150 info install generator-webapp@0.5.1 into /usr/local/lib
+151 info installOne generator-front-end@0.1.3
+152 verbose installOne of generator-front-end to /usr/local/lib not in flight; installing
+153 info installOne generator-mocha@0.1.6
+154 verbose installOne of generator-mocha to /usr/local/lib not in flight; installing
+155 info installOne generator-karma@0.9.0
+156 verbose installOne of generator-karma to /usr/local/lib not in flight; installing
+157 info installOne generator-angular@0.11.1
+158 verbose installOne of generator-angular to /usr/local/lib not in flight; installing
+159 info installOne generator-webapp@0.5.1
+160 verbose installOne of generator-webapp to /usr/local/lib not in flight; installing
+161 verbose lock using /Users/Josizzle/.npm/_locks/generator-front-end-5e7c39e9abc90e0f.lock for /usr/local/lib/node_modules/generator-front-end
+162 verbose lock using /Users/Josizzle/.npm/_locks/generator-mocha-61e557bff6e23a34.lock for /usr/local/lib/node_modules/generator-mocha
+163 verbose lock using /Users/Josizzle/.npm/_locks/generator-angular-8c05db5f74b13054.lock for /usr/local/lib/node_modules/generator-angular
+164 verbose lock using /Users/Josizzle/.npm/_locks/generator-karma-86430db65453f6e8.lock for /usr/local/lib/node_modules/generator-karma
+165 verbose lock using /Users/Josizzle/.npm/_locks/generator-webapp-9b485c3ef99446bb.lock for /usr/local/lib/node_modules/generator-webapp
+166 silly install write writing generator-front-end 0.1.3 to /usr/local/lib/node_modules/generator-front-end
+167 silly cache addNamed cb generator-front-end@0.1.3
+168 verbose unbuild lib/node_modules/generator-front-end
+169 silly install write writing generator-mocha 0.1.6 to /usr/local/lib/node_modules/generator-mocha
+170 silly cache addNamed cb generator-mocha@0.1.6
+171 verbose unbuild lib/node_modules/generator-mocha
+172 silly install write writing generator-angular 0.11.1 to /usr/local/lib/node_modules/generator-angular
+173 silly cache addNamed cb generator-angular@0.11.1
+174 verbose unbuild lib/node_modules/generator-angular
+175 silly install write writing generator-karma 0.9.0 to /usr/local/lib/node_modules/generator-karma
+176 silly cache addNamed cb generator-karma@0.9.0
+177 verbose unbuild lib/node_modules/generator-karma
+178 silly install write writing generator-webapp 0.5.1 to /usr/local/lib/node_modules/generator-webapp
+179 silly cache addNamed cb generator-webapp@0.5.1
+180 verbose unbuild lib/node_modules/generator-webapp
+181 info preuninstall generator-front-end@0.1.3
+182 info preuninstall generator-mocha@0.1.6
+183 info preuninstall generator-webapp@0.5.1
+184 info uninstall generator-front-end@0.1.3
+185 info uninstall generator-mocha@0.1.6
+186 info uninstall generator-webapp@0.5.1
+187 verbose unbuild rmStuff generator-front-end@0.1.3 from /usr/local/lib/node_modules
+188 info postuninstall generator-front-end@0.1.3
+189 verbose unbuild rmStuff generator-mocha@0.1.6 from /usr/local/lib/node_modules
+190 info postuninstall generator-mocha@0.1.6
+191 verbose unbuild rmStuff generator-webapp@0.5.1 from /usr/local/lib/node_modules
+192 info postuninstall generator-webapp@0.5.1
+193 verbose gentlyRm vacuuming /usr/local/lib/node_modules/generator-front-end
+194 verbose gentlyRm vacuuming /usr/local/lib/node_modules/generator-mocha
+195 silly gentlyRm purging /usr/local/lib/node_modules/generator-front-end
+196 silly gentlyRm purging /usr/local/lib/node_modules/generator-mocha
+197 verbose gentlyRm vacuuming /usr/local/lib/node_modules/generator-webapp
+198 silly gentlyRm purging /usr/local/lib/node_modules/generator-webapp
+199 verbose unlock done using /Users/Josizzle/.npm/_locks/generator-front-end-5e7c39e9abc90e0f.lock for /usr/local/lib/node_modules/generator-front-end
+200 verbose unlock done using /Users/Josizzle/.npm/_locks/generator-mocha-61e557bff6e23a34.lock for /usr/local/lib/node_modules/generator-mocha
+201 verbose unlock done using /Users/Josizzle/.npm/_locks/generator-webapp-9b485c3ef99446bb.lock for /usr/local/lib/node_modules/generator-webapp
+202 info preuninstall generator-karma@0.9.0
+203 info uninstall generator-karma@0.9.0
+204 verbose unbuild rmStuff generator-karma@0.9.0 from /usr/local/lib/node_modules
+205 info postuninstall generator-karma@0.9.0
+206 verbose gentlyRm vacuuming /usr/local/lib/node_modules/generator-karma
+207 silly gentlyRm purging /usr/local/lib/node_modules/generator-karma
+208 verbose unlock done using /Users/Josizzle/.npm/_locks/generator-karma-86430db65453f6e8.lock for /usr/local/lib/node_modules/generator-karma
+209 info preuninstall generator-angular@0.11.0
+210 info uninstall generator-angular@0.11.0
+211 verbose unbuild rmStuff generator-angular@0.11.0 from /usr/local/lib/node_modules
+212 info postuninstall generator-angular@0.11.0
+213 verbose gentlyRm vacuuming /usr/local/lib/node_modules/generator-angular
+214 silly gentlyRm purging /usr/local/lib/node_modules/generator-angular
+215 verbose unlock done using /Users/Josizzle/.npm/_locks/generator-angular-8c05db5f74b13054.lock for /usr/local/lib/node_modules/generator-angular
+216 verbose stack Error: EACCES, unlink '/usr/local/lib/node_modules/generator-front-end'
+216 verbose stack     at Error (native)
+217 verbose cwd /Users/Josizzle/Desktop/massagefavorforhealth
+218 error Darwin 14.3.0
+219 error argv "node" "/usr/local/bin/npm" "install" "-g" "generator-angular" "generator-front-end" "generator-karma" "generator-webapp" "generator-mocha"
+220 error node v0.12.0
+221 error npm  v2.5.1
+222 error path /usr/local/lib/node_modules/generator-front-end
+223 error code EACCES
+224 error errno -13
+225 error Error: EACCES, unlink '/usr/local/lib/node_modules/generator-front-end'
+225 error     at Error (native)
+225 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/generator-front-end']
+225 error   errno: -13,
+225 error   code: 'EACCES',
+225 error   path: '/usr/local/lib/node_modules/generator-front-end' }
+226 error Please try running this command again as root/Administrator.
+227 verbose exit [ -13, true ]
+228 verbose unbuild lib/node_modules/generator-front-end
+229 info preuninstall generator-front-end@0.1.3
+230 info uninstall generator-front-end@0.1.3
+231 verbose unbuild rmStuff generator-front-end@0.1.3 from /usr/local/lib/node_modules
+232 info postuninstall generator-front-end@0.1.3
+233 verbose gentlyRm vacuuming /usr/local/lib/node_modules/generator-front-end
+234 silly gentlyRm purging /usr/local/lib/node_modules/generator-front-end
+235 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/generator-front-end'
+235 error error rolling back     at Error (native)
+235 error error rolling back  { [Error: EACCES, unlink '/usr/local/lib/node_modules/generator-front-end']
+235 error error rolling back   errno: -13,
+235 error error rolling back   code: 'EACCES',
+235 error error rolling back   path: '/usr/local/lib/node_modules/generator-front-end' }
